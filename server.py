@@ -20,7 +20,7 @@ next_appt_index = 0
 
 
 # builds the response text for a given request
-def request):
+def handle_request(request):
     global next_appt_index
     command = request.strip()
 
